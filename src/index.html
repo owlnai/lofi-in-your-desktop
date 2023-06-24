@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet"
+        href="styles.css" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+  <title>Lofi in your desktop</title>
+  <script type="module"
+          src="/main.js"
+          defer></script>
+</head>
+
+<body class="container">
+  <div data-tauri-drag-region
+       class="titlebar">
+    <div class="titlebar-title">
+      <a href="#"
+         id="goToGitHub">
+        <img src="https://api.iconify.design/ph:headphones-bold.svg"
+             class="titlebar-icon"
+             alt="lofi" />
+        <span>Lofi in your desktop</span>
+      </a>
+    </div>
+    <div class="titlebar-buttons">
+      <div class="titlebar-button"
+           id="titlebar-minimize">
+        <img src="https://api.iconify.design/ph:arrows-in-simple-bold.svg"
+             alt="minimize"
+             class="titlebar-icon" />
+      </div>
+      <div class="titlebar-button"
+           id="titlebar-maximize">
+        <img src="https://api.iconify.design/ph:corners-out-bold.svg"
+             alt="maximize"
+             class="titlebar-icon" />
+      </div>
+      <div class="titlebar-button"
+           id="titlebar-close">
+        <img src="https://api.iconify.design/ph:x-bold.svg"
+             alt="close"
+             class="titlebar-icon" />
+      </div>
+    </div>
+  </div>
+  <iframe src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&modestbranding=1&fs=0"
+          title="YouTube video player"
+          frameborder="0"
+          style="min-height:100vh;width:100%;user-select: none;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+</body>
+
+</html>

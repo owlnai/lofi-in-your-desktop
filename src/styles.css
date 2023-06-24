@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #fbfbfb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body:is(:hover, :drop) .titlebar {
+  opacity: 1;
+}
+
+body,
+html {
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.titlebar {
+  --spacing: 7px;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+  height: 55px;
+  background: hsl(90 2% 10% / 43%);
+  border: 1px solid #cccccc21;
+  user-select: none;
+  backdrop-filter: blur(6px);
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: calc(100% - var(--spacing) * 2);
+  top: var(--spacing);
+  left: var(--spacing);
+}
+
+.titlebar-title a {
+  display: flex;
+  margin-left: 7px;
+  gap: 6px;
+  font-weight: medium;
+  align-items: center;
+}
+.titlebar-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+}
+.titlebar-buttons {
+  height: 25px;
+}
+
+.titlebar-icon {
+  filter: brightness(100) invert(1);
+  width: 25px;
+  height: 25px;
+}
+.titlebar-icon:hover {
+  filter: brightness(100) invert(0.8);
+  cursor: pointer;
+}
