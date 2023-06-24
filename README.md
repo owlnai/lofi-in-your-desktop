@@ -8,8 +8,10 @@
 ## Usage
 Download the [latest release](/releases/latest) and run it.
 
-At the moment only prebuilt Windows binaries are provided. Until there's GitHub Actions support, you'll have to build it on Linux or MacOS.
+## Notes
+At the moment only prebuilt **unsigned** Windows binaries are provided. Until there's GitHub Actions support, you'll have to build it on Linux or MacOS.
 
+Since they're unsigned, you might get a Smartscreen warning on Windows. The only way to fix this is getting a EV code signing cert which is too expensive for a OSS maintainer. Again, you can build it and sign it by yourself or simply ignore the warning.
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
