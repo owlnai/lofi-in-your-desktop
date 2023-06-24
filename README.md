@@ -6,7 +6,7 @@
 </p>
 
 ## Usage
-Download the [latest release](/releases/latest) and run it.
+Download the [latest release](https://github.com/owlnai/lofi-in-your-desktop/releases/latest) and run it.
 
 ## Notes
 At the moment only prebuilt **unsigned** Windows binaries are provided. Until there's GitHub Actions support, you'll have to build it on Linux or MacOS.
