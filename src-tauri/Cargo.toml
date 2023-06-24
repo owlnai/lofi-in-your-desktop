@@ -1,6 +1,6 @@
 [package]
 name = "lofi-in-your-desktop"
-version = "1.0.0"
+version = "1.0.1"
 description = "Listen to Lofi music on your desktop"
 authors = ["Unai Mengual <git@owln.ai>"]
 license = "MIT"
