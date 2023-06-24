@@ -1,5 +1,9 @@
-# Lofi in your desltop
-Lofi Girl embedded in a lightweight Tauri application.
+<p align="center">
+<img src="https://github.com/owlnai/lofi-in-your-desktop/assets/20427094/ef2965d1-307d-4437-8977-50bde596034b">
+</p>
+<p align="center">
+  Lofi Girl embedded in a lightweight Tauri application.
+</p>
 
 ## Usage
 Download the [latest release](/releases/latest) and run it.
