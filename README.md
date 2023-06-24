@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/owlnai/lofi-in-your-desktop/assets/20427094/ef2965d1-307d-4437-8977-50bde596034b" alt="Screenshot of the Lofi player">
+<img src="https://repository-images.githubusercontent.com/658017980/ae660816-9106-4d50-8149-752add67a3cc" alt="Screenshot of the Lofi player">
 </p>
 <p align="center">
   Lofi Girl embedded in a lightweight Tauri application.
