@@ -54,6 +54,10 @@
         "width": 720,
         "height": 405
       }
-    ]
+    ] ,
+    "systemTray": {
+      "iconPath": "icons/icon.ico",
+      "iconAsTemplate": true
+    }
   }
 }
